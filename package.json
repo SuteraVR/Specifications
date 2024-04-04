@@ -7,5 +7,12 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "textlint": "^14.0.4"
+  },
+  "scripts": {
+    "lint": "npx textlint */*.md",
+    "fix": "npx textlint --fix */*.md"
+  }
 }
