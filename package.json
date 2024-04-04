@@ -4,15 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "npx textlint */*.md",
+    "fix": "npx textlint --fix */*.md"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "textlint": "^14.0.4"
-  },
-  "scripts": {
-    "lint": "npx textlint */*.md",
-    "fix": "npx textlint --fix */*.md"
+    "textlint": "^14.0.4",
+    "textlint-rule-preset-smarthr": "^1.28.0"
   }
 }
