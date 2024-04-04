@@ -1,14 +1,12 @@
 {
-  "name": "specifications",
+  "name": "suteravr-specifications",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "lint": "npx textlint */*.md",
     "fix": "npx textlint --fix */*.md"
   },
   "author": "",
-  "license": "ISC",
   "devDependencies": {
     "textlint": "^14.0.4",
     "textlint-rule-preset-ja-technical-writing": "^10.0.1",
