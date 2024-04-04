@@ -1,5 +1,6 @@
 {
   "rules": {
-    "preset-smarthr": true
+    "preset-smarthr": true,
+    "preset-ja-technical-writing": true
   }
 }
