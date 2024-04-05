@@ -1,4 +1,4 @@
-# SuteraVR/Specifications
+# SuteraVR/Specifications (Currently incompleted)
 SuteraVR is a protocol that constitutes a distributed and decentralized VR platform and consists of several specifications:
 <dl>
 <dt>Glossary</dt>
@@ -16,7 +16,7 @@ SuteraVR is a protocol that constitutes a distributed and decentralized VR platf
 <br />
 
 ## How to use SuteraVR?
-SuteraVR is a kind of specification.   
+SuteraVR is a kind of collection of specifications, and not specific software/sourcecode.
 For example, any application that conforms to the same version `SuteraVR/Specifications/Client` can join the SuteraVR network at any time.
 Thus, an application that complies with the SuteraVR specification is called an "implementation" of SuteraVR.
 
