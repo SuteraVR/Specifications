@@ -56,13 +56,11 @@ Below is an some of a SuteraVR implementation commonly used by SuteraVR users.
 ## ✨ Design
 
 - **Bloom**
-  - You can create a bloom that works as an independent metaverse platform: play with friends, share worlds and items. All blooms communicate with each other, and be able to access contents of other blooms.
+  - You can create a bloom that works as an independent VR-Social platform: play with friends, share worlds and items. All blooms communicate with each other, and be able to access contents of other blooms.
 - **Sandbox Enviroment**
   - Complete data processing within the sandbox environment. Prevent viruses and malicious scripts from executing and influencing the outside world.
 - **SuteraVR SDK**
   - You can upload avatars/worlds/items, and attach functions whatever you coded.
-
-
 
 ## 🌼 Name Origin
 
