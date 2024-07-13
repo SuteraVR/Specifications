@@ -4,7 +4,7 @@ Suteraは分散型Social-VRを実現することにより、持続可能な仮�
 
 ## 規格としての持続性
 
-Suteraは[SuteraVR/Specifications](https://github.com/SuteraVR/Specifications)に記述される仕様書が本体です。
+Suteraは、仕様書であるこのドキュメントそのものが本体です。
 
 分散型Social-VRを実現するために必要な通信プロトコルやデータの規格について定義されており、誰でも実装することができます。
 
