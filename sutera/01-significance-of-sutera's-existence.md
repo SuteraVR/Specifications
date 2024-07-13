@@ -2,7 +2,29 @@
 
 Suteraは分散型Social-VRを実現することにより、持続可能な仮想空間・メタバースを目指します。
 
-## 既存のSocial-VRプラットフォームの打倒を目指しているのですか？
+## 規格としての持続性
+
+Suteraは[SuteraVR/Specifications](https://github.com/SuteraVR/Specifications)に記述される仕様書が本体です。
+
+分散型Social-VRを実現するために必要な通信プロトコルやデータの規格について定義されており、誰でも実装することができます。
+
+## プラットフォームとしての持続性
+
+誰でもSuteraの仕様を実装したBloom(サーバー)を建てることができ、望まれる限りSuteraネットワークは持続します。
+
+公式による実装としては以下のものが公開されています。
+- サーバー: [SuteraVR/VanilaComponents](https://github.com/SuteraVR/VanilaComponents)
+- クライアント: [SuteraVR/VanilaClients](https://github.com/SuteraVR/VanilaClients)
+
+## データの持続性
+
+Suteraはプラットフォームだけでなく、アバターやユーザーなどのデータの持続性も実現します。
+
+詳細はObject-StorageコンポーネントとSuteraVRコンポーネントについて記述されたページを参照してください。
+
+## Q&A
+
+### 既存のSocial-VRプラットフォームの打倒を目指しているのですか？
 
 **いいえ。**
 
@@ -10,7 +32,7 @@ Suteraチームのメンバーの多くはVRChatやResoniteなどの既存プラ
 
 分散型システムを採用することで特定の運営主体に依存しないSocial-VRプラットフォームを実現し、既存プラットフォームが瓦解してしまったとしても**未来永劫Social-VRユーザーの居場所を保証・確約すること**、それを目的としています。
 
-## 既存のサービスは持続可能的でないのか
+### 既存のサービスは持続可能的ではないのか？
 
 ユーザーが望む形でのサービスの持続について、不安になるような事例はいくつか挙げられると思います。
 
