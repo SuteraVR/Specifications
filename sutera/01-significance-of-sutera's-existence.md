@@ -13,7 +13,7 @@ Suteraは、仕様書であるこのドキュメントそのものが本体で�
 誰でもSuteraの仕様を実装したBloom(サーバー)を建てることができ、望まれる限りSuteraネットワークは持続します。
 
 公式による実装としては以下のものが公開されています。
-- サーバー: [SuteraVR/VanilaComponents](https://github.com/SuteraVR/VanilaComponents)
+- Bloom (サーバー): [SuteraVR/VanilaComponents](https://github.com/SuteraVR/VanilaComponents)
 - クライアント: [SuteraVR/VanilaClients](https://github.com/SuteraVR/VanilaClients)
 
 ## データの持続性
