@@ -14,6 +14,7 @@
     "textlint-rule-ja-hiragana-keishikimeishi": "^1.1.0",
     "textlint-rule-no-mixed-zenkaku-and-hankaku-alphabet": "^1.0.1",
     "textlint-rule-period-in-list-item": "^1.0.1",
-    "textlint-rule-preset-ja-technical-writing": "^10.0.1"
+    "textlint-rule-preset-ja-technical-writing": "^10.0.1",
+    "textlint-rule-prh": "^6.0.0"
   }
 }
