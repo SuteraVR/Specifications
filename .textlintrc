@@ -11,5 +11,8 @@
         "./.prh/suteravr-words.yaml"
       ]
     },
-  }
+  },
+  "filters": {
+    "comments": true,
+  },
 }
