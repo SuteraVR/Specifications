@@ -1,6 +1,10 @@
 {
   "rules": {
-    "preset-smarthr": true,
-    "preset-ja-technical-writing": true
+    "preset-ja-technical-writing": true,
+    "period-in-list-item": true,
+    "no-mixed-zenkaku-and-hankaku-alphabet": true,
+    "ja-hiragana-hojodoushi": true,
+    "ja-hiragana-fukushi": true,
+    "ja-hiragana-keishikimeishi": true,
   }
 }
