@@ -1,0 +1,82 @@
+<mxfile host="app.diagrams.net" modified="2024-07-15T09:48:36.478Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="np00vjdldS02IiwD8okS" version="21.6.2" type="google">
+  <diagram name="ページ1" id="MxPB7AwiKuvZppGrS-kM">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hBu6dRC_P7iXdVrWcmxq-1" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="440" as="sourcePoint" />
+            <mxPoint x="710" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hBu6dRC_P7iXdVrWcmxq-4" value="あいうえお&lt;br&gt;a.txt" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.roundRectCallout;dx=30;dy=15;size=5;boundedLbl=1;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="370" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hBu6dRC_P7iXdVrWcmxq-5" value="" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.oval_callout;rotation=-179;" vertex="1" parent="1">
+          <mxGeometry x="290" y="450" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hBu6dRC_P7iXdVrWcmxq-6" value="OK" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="465" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hBu6dRC_P7iXdVrWcmxq-8" value="電子署名" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="290" y="340" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hBu6dRC_P7iXdVrWcmxq-10" value="かきくけこ&lt;br&gt;a.txt" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.roundRectCallout;dx=30;dy=15;size=5;boundedLbl=1;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="370" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hBu6dRC_P7iXdVrWcmxq-11" value="電子署名" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="450" y="340" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hBu6dRC_P7iXdVrWcmxq-16" value="" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.oval_callout;rotation=-179;" vertex="1" parent="1">
+          <mxGeometry x="414" y="450" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hBu6dRC_P7iXdVrWcmxq-17" value="OK" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="424" y="465" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hBu6dRC_P7iXdVrWcmxq-18" value="" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="370" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hBu6dRC_P7iXdVrWcmxq-19" value="" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="370" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hBu6dRC_P7iXdVrWcmxq-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.39;exitY=-0.067;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="hBu6dRC_P7iXdVrWcmxq-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="329.5" y="320" as="sourcePoint" />
+            <mxPoint x="329.5" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hBu6dRC_P7iXdVrWcmxq-27" value="" style="shape=actor;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="310" y="230" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hBu6dRC_P7iXdVrWcmxq-28" value="Fake" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hBu6dRC_P7iXdVrWcmxq-29" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="270" as="sourcePoint" />
+            <mxPoint x="620" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hBu6dRC_P7iXdVrWcmxq-30" value="送信データを入手" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="300" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hBu6dRC_P7iXdVrWcmxq-31" value="&lt;font color=&quot;#ff9999&quot;&gt;あいうえお&lt;br&gt;a.txt&lt;/font&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.roundRectCallout;dx=30;dy=15;size=5;boundedLbl=1;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="580" y="370" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hBu6dRC_P7iXdVrWcmxq-32" value="電子署名" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="580" y="340" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hBu6dRC_P7iXdVrWcmxq-33" value="入手したデータを再送" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="250" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hBu6dRC_P7iXdVrWcmxq-35" value="" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.oval_callout;rotation=-179;" vertex="1" parent="1">
+          <mxGeometry x="550" y="450" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hBu6dRC_P7iXdVrWcmxq-36" value="OK" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="465" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
