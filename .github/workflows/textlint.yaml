@@ -1,5 +1,8 @@
 name: textlint
-on: [push]
+on:
+  push:
+    branches:
+     - main
 jobs:
   textlint:
     name: textlint

@@ -21,12 +21,6 @@ jobs:
         with:
           node-version: 20
           cache: 'pnpm'
-      - name: textlint-github-pr-check
-        uses: tsuyoshicho/action-textlint@v3
-        with:
-          github_token: ${{ secrets.github_token }}
-          reporter: github-pr-check
-          textlint_flags: "*/*.md"
       - name: textlint-github-check
         uses: tsuyoshicho/action-textlint@v3
         with:
@@ -39,3 +33,10 @@ jobs:
           github_token: ${{ secrets.github_token }}
           reporter: github-pr-review
           textlint_flags: "*/*.md"
+      - name: textlint-github-pr-check
+        uses: tsuyoshicho/action-textlint@v3
+        with:
+          github_token: ${{ secrets.github_token }}
+          reporter: github-pr-check
+          textlint_flags: "*/*.md"
+          fail_on_error: true
