@@ -31,6 +31,10 @@ specs:
         x:
         y:
         z:
+    rotation:
+        x:
+        y:
+        z:
         w:
     scale:
         x:
@@ -48,3 +52,4 @@ specs:
        type: diffuse_bsdf # 単色もファイルなしで可能
        color: 0x6833cf
 ```
+
