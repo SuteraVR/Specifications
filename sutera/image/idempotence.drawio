@@ -1,0 +1,91 @@
+<mxfile host="app.diagrams.net" modified="2024-07-15T09:55:18.496Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="YbAUbL6R32Vz3vjtGQ1X" version="24.6.5" type="google">
+  <diagram name="ページ1" id="R3fBSbPgkCisT6Ae5bC-">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mgZgLY458CLmu_6VowPx-1" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="440" as="sourcePoint" />
+            <mxPoint x="710" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mgZgLY458CLmu_6VowPx-2" value="あいうえお&lt;br&gt;a.txt" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.roundRectCallout;dx=30;dy=15;size=5;boundedLbl=1;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="370" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mgZgLY458CLmu_6VowPx-3" value="" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.oval_callout;rotation=-179;" vertex="1" parent="1">
+          <mxGeometry x="290" y="450" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mgZgLY458CLmu_6VowPx-4" value="OK" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="465" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mgZgLY458CLmu_6VowPx-5" value="電子署名&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="290" y="340" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mgZgLY458CLmu_6VowPx-6" value="かきくけこ&lt;br&gt;a.txt" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.roundRectCallout;dx=30;dy=15;size=5;boundedLbl=1;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="370" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mgZgLY458CLmu_6VowPx-7" value="電子署名" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="450" y="340" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mgZgLY458CLmu_6VowPx-8" value="" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.oval_callout;rotation=-179;" vertex="1" parent="1">
+          <mxGeometry x="414" y="450" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mgZgLY458CLmu_6VowPx-9" value="OK" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="424" y="465" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mgZgLY458CLmu_6VowPx-10" value="" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="370" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mgZgLY458CLmu_6VowPx-11" value="" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="370" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mgZgLY458CLmu_6VowPx-12" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="mgZgLY458CLmu_6VowPx-22" target="mgZgLY458CLmu_6VowPx-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="310" as="sourcePoint" />
+            <mxPoint x="329.5" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mgZgLY458CLmu_6VowPx-13" value="" style="shape=actor;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="320" y="210" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mgZgLY458CLmu_6VowPx-14" value="Fake" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="180" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mgZgLY458CLmu_6VowPx-15" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="270" as="sourcePoint" />
+            <mxPoint x="620" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mgZgLY458CLmu_6VowPx-16" value="送信データを入手" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="280" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mgZgLY458CLmu_6VowPx-17" value="&lt;font color=&quot;#ff9999&quot;&gt;あいうえお&lt;br&gt;a.txt&lt;/font&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.roundRectCallout;dx=30;dy=15;size=5;boundedLbl=1;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="580" y="370" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mgZgLY458CLmu_6VowPx-18" value="電子署名" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="580" y="340" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mgZgLY458CLmu_6VowPx-19" value="入手したデータを再送" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="250" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mgZgLY458CLmu_6VowPx-20" value="" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.oval_callout;rotation=-179;" vertex="1" parent="1">
+          <mxGeometry x="550" y="450" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mgZgLY458CLmu_6VowPx-21" value="&lt;font style=&quot;&quot; color=&quot;#ff9999&quot;&gt;NG&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="465" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mgZgLY458CLmu_6VowPx-22" value="Ver1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="290" y="320" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mgZgLY458CLmu_6VowPx-23" value="Ver2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="450" y="320" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mgZgLY458CLmu_6VowPx-24" value="&lt;font style=&quot;&quot; color=&quot;#ff9999&quot;&gt;Ver1&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="580" y="320" width="100" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
