@@ -1,0 +1,136 @@
+version: 1
+rules:
+
+  - expected: Clocking-Server
+    pattern:
+      - /clocking(-|\s)?(server)?/gi
+    specs:
+      - from: Clocking server
+        to: Clocking-Server
+      - from: clocking
+        to: Clocking-Server
+
+  - expected: Clocker
+
+  - expected: Bloom
+    pattern:
+      - /bloom/gi
+      - /broom/gi
+      - /ブルーム/gi
+
+  - expected: SuteraVR
+
+  - expected: Sutera
+    pattern:
+      - /stella/gi
+      - /sutera/gi
+      - /ステラ/gi
+
+  - expected: Suteraネットワーク
+    pattern:
+      - /Sutera(-|\s)?(ネットワーク|network)/gi
+    specs:
+      - from: Sutera network
+        to: Suteraネットワーク
+
+  - expected: Gatewayコンポーネント
+    pattern: 
+      - /(?<!`)(gateway)(コンポーネント|component|サーバー|server|ブルーム|bloom)(?!`)/gi
+    specs:
+      - from: gatewayコンポーネント
+        to: Gatewayコンポーネント
+
+  - expected: Gateway
+    pattern:
+      - /(?<!`)(gateway)(?!`)/gi
+    specs:
+      - from: "`gateway`"
+        to: "`gateway`"
+
+  - expected: Object-Storageコンポーネント
+    pattern: 
+      - /(?<!`)(Object(-|\s)?Storage)(コンポーネント|component|サーバー|server|ブルーム|bloom)(?!`)/gi
+
+  - expected: Object-Storage
+    pattern:
+      - /(?<!`)(Object(-|\s)?Storage)(?!`)/gi
+
+  - expected: Relayコンポーネント
+    pattern: 
+      - /(?<!`)(Relay|Social|SuteraVR)(コンポーネント|component|サーバー|server|ブルーム|bloom)(?!`)/gi
+
+  - expected: Relay
+    pattern:
+      - /(?<!`)(Relay|Social)(?!`)/gi
+
+  - expected: Social-VR
+    pattern:
+      - /Social(-|\s)?VR/gi
+    specs:
+      - from: social-vr
+        to: Social-VR
+      - from: Social VR
+        to: Social-VR
+      - from: SocialVR
+        to: Social-VR
+
+  - expected: メタバース
+    pattern:
+      - /metaverse/gi
+    specs:
+      - from: MetaVerse
+        to: メタバース
+
+  - expected: インスタンス
+    pattern:
+      - /instance/gi
+
+  - expected: 電子署名
+    pattern:
+      - /(?<!(電子|公開鍵))(デジタル)?署名/g
+    specs:
+      - from: 署名
+        to: 電子署名
+      - from: 電子署名
+        to: 電子署名
+      - from: デジタル署名
+        to: 電子署名
+      - from: 公開鍵署名
+        to: 公開鍵署名
+
+  - expected: 公開鍵
+    pattern:
+      - /(署名)?(検証|公開)鍵/
+    specs:
+      - from: 検証鍵
+        to: 公開鍵
+
+  - expected: べき等性
+    pattern:
+      - /(べき|羃|冪|巾)(とう|等)性/
+    specs:
+      - from: 羃等性
+        to: べき等性
+      - from: 冪等性
+        to: べき等性
+      - from: べきとうせい
+        to: べきとうせい
+
+  - expected: 秘密鍵
+    pattern:
+      - 署名鍵 
+
+  - expected: サーバー
+    pattern:  /サーバ(?!ー)/g
+    specs:
+      - from: サーバ
+        to:   サーバー
+        
+  - expected: ユーザー
+    pattern:  /ユーザ(?!ー)/g
+
+  - expected: データ
+    pattern:  /データー/g
+    specs:
+      - from: データー
+        to:   データ
