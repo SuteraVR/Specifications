@@ -87,7 +87,7 @@ rules:
 
   - expected: 電子署名
     pattern:
-      - /(?<!(電子))(デジタル)?署名/g
+      - /(?<!(電子|公開鍵))(デジタル)?署名/g
     specs:
       - from: 署名
         to: 電子署名
@@ -95,6 +95,8 @@ rules:
         to: 電子署名
       - from: デジタル署名
         to: 電子署名
+      - from: 公開鍵署名
+        to: 公開鍵署名
 
   - expected: 公開鍵
     pattern:
