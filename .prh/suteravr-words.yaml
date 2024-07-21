@@ -103,6 +103,15 @@ rules:
       - from: 検証鍵
         to: 公開鍵
 
+  - expected: べき等性
+    pattern:
+      - /(べき|羃)(とう|等)性/
+    specs:
+      - from: 羃等性
+        to: べき等性
+      - from: べきとうせい
+        to: べきとうせい
+
   - expected: 秘密鍵
     pattern:
       - 署名鍵 
