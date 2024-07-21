@@ -61,7 +61,16 @@ rules:
 
   - expected: Relay
     pattern:
-      - /(?<!`)(Relay|Social)(?!`)/gi
+      - /(?<!`)(Relay|Social)(?!((-|\s)?VR))(?!`)/gi
+    specs:
+      - from: "`Social`"
+        to: "`Social`"
+      - from: Social
+        to: Relay
+      - from: Social-VR
+        to: Social-VR
+      - from: Social VR
+        to: Social VR
 
   - expected: Social-VR
     pattern:
