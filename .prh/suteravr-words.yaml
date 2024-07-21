@@ -55,13 +55,22 @@ rules:
     pattern:
       - /(?<!`)(Object(-|\s)?Storage)(?!`)/gi
 
-  - expected: Socialコンポーネント
+  - expected: Relayコンポーネント
     pattern: 
-      - /(?<!`)(Social|SuteraVR)(コンポーネント|component|サーバー|server|ブルーム|bloom)(?!`)/gi
+      - /(?<!`)(Relay|Social|SuteraVR)(コンポーネント|component|サーバー|server|ブルーム|bloom)(?!`)/gi
 
-  - expected: Social
+  - expected: Relay
     pattern:
-      - /(?<!`)(Social)(?!`)/gi
+      - /(?<!`)(Relay|Social)(?!((-|\s)?VR))(?!`)/gi
+    specs:
+      - from: "`Social`"
+        to: "`Social`"
+      - from: Social
+        to: Relay
+      - from: Social-VR
+        to: Social-VR
+      - from: Social VR
+        to: Social VR
 
   - expected: Social-VR
     pattern:
@@ -87,12 +96,16 @@ rules:
 
   - expected: 電子署名
     pattern:
-      - /(?<!(電子))署名/g
+      - /(?<!(電子|公開鍵))(デジタル)?署名/g
     specs:
       - from: 署名
         to: 電子署名
       - from: 電子署名
         to: 電子署名
+      - from: デジタル署名
+        to: 電子署名
+      - from: 公開鍵署名
+        to: 公開鍵署名
 
   - expected: 公開鍵
     pattern:
@@ -100,6 +113,17 @@ rules:
     specs:
       - from: 検証鍵
         to: 公開鍵
+
+  - expected: べき等性
+    pattern:
+      - /(べき|羃|冪|巾)(とう|等)性/
+    specs:
+      - from: 羃等性
+        to: べき等性
+      - from: 冪等性
+        to: べき等性
+      - from: べきとうせい
+        to: べきとうせい
 
   - expected: 秘密鍵
     pattern:
