@@ -55,13 +55,13 @@ rules:
     pattern:
       - /(?<!`)(Object(-|\s)?Storage)(?!`)/gi
 
-  - expected: Socialコンポーネント
+  - expected: Relayコンポーネント
     pattern: 
-      - /(?<!`)(Social|SuteraVR)(コンポーネント|component|サーバー|server|ブルーム|bloom)(?!`)/gi
+      - /(?<!`)(Relay|Social|SuteraVR)(コンポーネント|component|サーバー|server|ブルーム|bloom)(?!`)/gi
 
-  - expected: Social
+  - expected: Relay
     pattern:
-      - /(?<!`)(Social)(?!`)/gi
+      - /(?<!`)(Relay|Social)(?!`)/gi
 
   - expected: Social-VR
     pattern:
