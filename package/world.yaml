@@ -4,16 +4,16 @@ metadata:
   version: 0.1.0
 specs:
   spawn_point:
-    x:
-    y:
-    z:
+    x: 0
+    y: 0
+    z: 0
   border: # 越えたらリスポーン
-    x_min:
-    x_max:
-    y_min:
-    y_max:
-    z_min:
-    z_max:
+    x_min: -100
+    x_max: 100
+    y_min: -100
+    y_max: 100
+    z_min: -100
+    z_max: 100
   objects: # 配列
     - name: sofa
       model:
@@ -23,18 +23,18 @@ specs:
         type: sbsar
         path: materials/sofa.sbsar
       location:
-        x:
-        y:
-        z:
+        x: 0.0
+        y: 0.0
+        z: 0.0
       rotation:
-        x:
-        y:
-        z:
-        w:
+        x: 0.0
+        y: 0.0
+        z: 0.0
+        w: 0.0
       scale:
-        x:
-        y:
-        z:
+        x: 1.0
+        y: 1.0
+        z: 1.0
       physics:
         colliders:
           - type: box
