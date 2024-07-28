@@ -1,48 +1,10 @@
 metadata:
-  type: sutera-scene@0.1.0
+  type: sutera-world@0.1.0
   name: sutera world
   version: 0.1.0
 specs:
-  spawn_point:
-    x: 0
-    y: 0
-    z: 0
-  border: # 越えたらリスポーン
-    x_min: -100
-    x_max: 100
-    y_min: -100
-    y_max: 100
-    z_min: -100
-    z_max: 100
-  objects: # 配列
-    - name: sofa
-      model:
-        type: gltf
-        path: models/sofa.gltf
-      material:
-        type: sbsar
-        path: materials/sofa.sbsar
-      location:
-        x: 0.0
-        y: 0.0
-        z: 0.0
-      rotation:
-        x: 0.0
-        y: 0.0
-        z: 0.0
-        w: 0.0
-      scale:
-        x: 1.0
-        y: 1.0
-        z: 1.0
-      physics:
-        colliders:
-          - type: box
-        gravity:
-          mass: 5000
-    - name: ball # 最小構成
-      model:
-        type: sphere # 基本図形はgltfなしで可能
-      material:
-        type: diffuse_bsdf # 単色もファイルなしで可能
-        color: 0x6833cf
+  default_scene:
+    id: "cqj2us15vguh3sm15j7g"
+  scenes:
+    - path: models/sofa.yaml
+    - path: models/ball.yaml
