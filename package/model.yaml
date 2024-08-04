@@ -1,0 +1,48 @@
+metadata:
+    type: Sutera-object 
+    sutera_version: 0.1.0
+    name:sofa
+    version: 0.2.0  
+    id: ball
+
+model:     
+    type: gltf #ファイルのタイプを記述
+    path: models/sofa.gltf #ファイルの置いてあるフォルダへの絶対パスを指定
+
+material: 
+    type: sbsar  #マテリアルのファイルタイプについて記述
+    path: materials/sofa.sbsar      #マテリアルのファイルへの絶対パス
+
+physics:
+  colliders:
+    - type: sphere
+      radius: 3
+  rigidbody:
+    gravity: true
+    mass: 5000 
+    Drag: 1
+    Angular_Drag: 0
+
+specs:
+    location:
+        x:5
+        y:5
+        z:0
+    rotation:
+        x:0
+        y:0
+        z:0
+        w:0
+    scale:
+        x:1
+        y:1
+        z:1
+    origin:
+        x:1
+        y:1
+        z:0
+    origin_rotation:
+        x:0
+        y:0
+        z:0
+        w:0
