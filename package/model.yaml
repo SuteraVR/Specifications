@@ -19,7 +19,7 @@ physics:
       radius: 3
   rigidbody:
     gravity: true
-    mass: 5000 
+    mass: 50 
     Drag: 1
     Angular_Drag: 0
 
