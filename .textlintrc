@@ -10,6 +10,9 @@
     "ja-hiragana-hojodoushi": true,
     "ja-hiragana-fukushi": true,
     "ja-hiragana-keishikimeishi": true,
+    "ja-space-between-half-and-full-width": {
+            "space": "never"
+        },
     "prh": {
       "rulePaths": [
         "./.prh/suteravr-words.yaml"
