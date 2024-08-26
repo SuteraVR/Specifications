@@ -2,24 +2,21 @@
   "rules": {
     "preset-ja-technical-writing": {
       "no-exclamation-question-mark": {
-        "allowFullWidthQuestion": true
-      }
+        "allowFullWidthQuestion": true,
+      },
     },
     "period-in-list-item": true,
     "no-mixed-zenkaku-and-hankaku-alphabet": true,
     "ja-hiragana-hojodoushi": true,
     "ja-hiragana-fukushi": true,
     "ja-hiragana-keishikimeishi": true,
-    "ja-space-between-half-and-full-width": {
-            "space": "never"
-        },
     "prh": {
       "rulePaths": [
         "./.prh/suteravr-words.yaml"
       ]
-    }
+    },
   },
   "filters": {
-    "comments": true
-  }
+    "comments": true,
+  },
 }
