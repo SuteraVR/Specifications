@@ -1,0 +1,10 @@
+metadata:
+  type: sutera-world@0.1.0
+  name: sutera world
+  version: 0.1.0
+specs:
+  default_scene:
+    id: "cqj2us15vguh3sm15j7g"
+  scenes:
+    - path: models/sofa.yaml
+    - path: models/ball.yaml
