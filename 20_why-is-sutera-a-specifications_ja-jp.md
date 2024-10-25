@@ -1,7 +1,7 @@
 # なぜSuteraは仕様なのか？
 
 Suteraの本体は、この文章が書かれている仕様書そのものであり、ある特定のソフトウェアではありません。
-[Suteraの存在意義について](sutera/01-significance-of-sutera's-existence.md)にあるように、Suteraは持続性あるSocial-VRの実現を目指しています。
+[Suteraの存在意義について](sutera/01-significance-of-sutera's-existence.md)にあるように、Suteraは持続的なSocial-VRの実現を目指しています。
 そのためには特定の環境や実装に依存しないことが望ましいと私たちは考えており、Suteraを仕様書という抽象化された状態で公開し、誰でも実装できるようにしました。
 
 ## 拡張性の維持
