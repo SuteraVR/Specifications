@@ -10,7 +10,9 @@
 その中でも描画処理の部分は特に優れていて再現困難であると考え、以下のような解決策を用いることにしました。
 
 - a. 通信や各種演算はSuteraの仕様に準拠したWasmの実装を使用する
-- b. AvatarやWorldのギミックはWasmを利用してユーザーが実装できる (参照: [Suteraが動的オブジェクトの形式としてWebAssembly（Wasm）を採用した理由](package/13_Why-Sutera-adopted-wasm-as-the-format-for-dynamic-objects_ja-jp.md))
+- b. AvatarやWorldのギミックはWasmを利用してユーザーが実装できる
+  - (参照: [Suteraが動的オブジェクトの形式としてWebAssembly（Wasm）を採用した理由](package/13_Why-Sutera-adopted-wasm-as-the-format-for-dynamic-objects_ja-jp.md))
 - c. 描画処理部分のみ既存のゲームエンジンを利用する
 
-このようにするとSuteraのWasm実装と特定ゲームエンジンの描画処理部分を繋げるパイプを用意するだけで、比較的安易にゲームエンジンを乗り換えることができ、潜在的なロックインの可能性を避けることができます。
+このようにするとSuteraのWasm実装と特定ゲームエンジンの描画処理部分を繋げるパイプを用意するだけで、比較的安易にゲームエンジンを乗り換えることができます。
+これは潜在的なロックインの可能性を避けることに繋がり、Suteraの理念に適した判断であるといえます。
