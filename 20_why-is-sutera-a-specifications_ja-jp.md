@@ -12,8 +12,7 @@ Suteraの本体は、この文章が書かれている仕様書そのもので�
 
 ## 公式による実装
 
-我々Suteraのチームは仕様書だけでなく、以下の実装も提供しています。
-もちろん、ユーザーはSuteraの仕様に準拠する実装を自由に開発することができます。
+以下は、Suteraチームが提供するSutera実装の一覧です。
 
 - Bloom: [VanillaComponents](https://github.com/SuteraVR/VanillaComponents)
 - Client: [VanillaClient](https://github.com/SuteraVR/VanillaClient)
