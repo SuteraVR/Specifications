@@ -26,7 +26,6 @@ WorldやAvatarのギミックを制御するための実行ファイルです。
 
 他のほとんどのSocial-VRプラットフォームでは特定ゲームエンジンのクローズドな独自規格を用いています。
 しかし、この潮流に身を任せることは特定の環境への依存を避けるSuteraの方針と衝突します。
-
 (参照: [Suteraの存在意義について](sutera/01-significance-of-sutera's-existence.md))
 
 そこで、我々はSocial-VRのためのオープンな規格としてSuteraパッケージを策定することにしました。
