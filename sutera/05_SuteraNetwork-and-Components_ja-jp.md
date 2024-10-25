@@ -8,10 +8,13 @@ Suteraネットワークは、Bloomという独立した複数のサーバーか
 Suteraネットワークは以下の構成で成り立っています。  
 <pre>
 Suteraネットワーク
-└── Bloom
+├── Bloom 1
     ├── Gateway Component
     ├── Object-Storage Component
     └── Relay Component
+├── Bloom 2
+├── Bloom 3
+├── ...
 </pre>
 また、Suteraネットワークを構成する要素はすべてHTTPもしくはHTTPSによって通信されます。  
 (参照: [SuteraがHTTPにこだわる理由](sutera/why-http.md))
