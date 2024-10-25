@@ -1,4 +1,4 @@
-# Clocking ServerがSuteraネットワークに含まれない理由
+# Clocking-ServerがSuteraネットワークに含まれない理由
 
 [Suteraの存在意義について](sutera/01-significance-of-sutera's-existence.md)にも記されているように、「持続可能な仮想空間・メタバースの実現」「未来永劫Social-VRユーザーの居場所を保証・確約すること」はSuteraの重要な理念です。
 Suteraネットワークは、それら理念のために存在する全てコンポーネントによって構成されます。
