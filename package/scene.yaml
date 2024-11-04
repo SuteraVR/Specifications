@@ -1,0 +1,37 @@
+metadata:
+  id: "cqj2ur95vguh3mj5ba00"
+  type: sutera-scene@0.1.0
+  name: sutera scene
+  version: 0.1.0
+specs:
+  spawn_point:
+    x: 0
+    y: 0
+    z: 0
+  border:
+    x_min: -100
+    x_max: 100
+    y_min: -100
+    y_max: 100
+    z_min: -100
+    z_max: 100
+  objects:
+    - id: "cqj2us15vguh3sm15j7g"
+      name: sofa
+      path: models/sofa.yaml
+      location:
+        x: 0.0
+        y: 0.0
+        z: 0.0
+      rotation:
+        x: 0.0
+        y: 0.0
+        z: 0.0
+        w: 0.0
+      scale:
+        x: 1.0
+        y: 1.0
+        z: 1.0
+    - id: "cqj2us95vguh428mb9m0" # 最小構成
+      name: ball
+      path: models/sofa.yaml
